@@ -1,0 +1,39 @@
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="imagem/png" href="LogoCalc4U!-ICO.ico">
+    <title>Calc4U!</title>
+</head>
+<body>
+    <h1 class="cabecalho"><img src="LogoCalc4U!-ICO.ico" alt="Logo Calc4U!">Calc4U!</h1>
+    <div class="descricao">Calculadora de Operações Básicas!</div>
+    <p class="paragrafo">Preencha, nos campos abaixo, os respectivos valores para efetuar a conta:</p>
+    <form>
+        <center>
+            <input class="input" placeholder="ex.: 2" type="number" id="numero1" name="Número 1">
+        </center>
+        <center>
+            <select id="operacao">
+                <option value="+">+ (Adição)</option>
+                <option value="-">- (Subtração)</option>
+                <option value="*">* (Multiplicação)</option>
+                <option value="/">÷ (Divisão)</option>
+            </select>
+        </center>
+        <center>
+            <input class="input" placeholder="ex.: 3" type="number" id="numero2" name="Número 2!">
+        </center>
+        <center>
+            <input class="input2" type="button"  value="Calcular!" id="calcular">
+            <input class="input2" type="button" value="Mudar de Tema!" onClick="darklightMode()" name="Botão Mudar de Tema!">
+        </center>
+        <center>
+            <p>O resultado da sua conta é: <i><span id="resultado"></span></i></p>
+        </center>
+    </form>               
+    <div class="rodape"><img src="LogoCalc4U!-ICO.ico" alt="Logo Calc4U!">© 2021 Calc4U! - by @gabstroeher</div>
+    <script src="main.js"></script>
+</body>
+</html>

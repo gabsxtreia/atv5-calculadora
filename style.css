@@ -1,0 +1,49 @@
+body {
+  padding: 25px;
+  font-size: 25px;
+  background-color: #f9eac3;
+  color: #000000;
+  font-family: "Trebuchet MS", monospace;
+  font-size: 20px;
+  letter-spacing: 2px;
+}
+.darklightmode {
+  background-color: #1d1d1b;
+  color: #ffffff;
+}
+.descricao {
+      text-align: center;
+      padding: 0px;
+      color: green;
+      font-weight: bold;
+  }
+.cabecalho {
+  text-align: center;
+  margin-top: 0px;
+  font-size: 30px;
+  font-weight: bold;
+  color: tomato;
+}
+.rodape {
+    text-align: center;
+    margin-top: 131px;
+    font-size: 20px;
+    font-weight: bold;
+    color: tomato;
+}
+.paragrafo {
+  text-align: center;
+  padding: 0px;
+  color: darkgoldenrod;
+  font-weight: bold;
+  margin-top: 100px;
+  font-size: 20px;
+}
+.input {
+  margin-top: 0px;
+  font-size: 20px;
+}
+.input2 {
+  margin-top: 10px;
+  font-size: 20px;
+}
